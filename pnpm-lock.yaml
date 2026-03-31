@@ -8,7 +8,7 @@ importers:
 
   .:
     devDependencies:
-      '@repo/eslint-config':
+      '@local/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
       eslint:
@@ -81,7 +81,7 @@ importers:
       '@angular/compiler-cli':
         specifier: ^17.3.0
         version: 17.3.12(@angular/compiler@17.3.12(@angular/core@17.3.12(rxjs@7.8.2)(zone.js@0.14.10)))(typescript@5.4.5)
-      '@repo/eslint-config':
+      '@local/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
       '@types/jasmine':
