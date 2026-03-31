@@ -1,5 +1,5 @@
 {
-  "name": "with-angular",
+  "name": "monexa-ng",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -9,7 +9,7 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "pnpm@8.14.0",
+  "packageManager": "pnpm@10.0.0",
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "eslint": "^8.57.0",
