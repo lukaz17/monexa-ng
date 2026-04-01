@@ -84,6 +84,9 @@ importers:
       '@local/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
+      '@local/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@types/jasmine':
         specifier: ~5.1.0
         version: 5.1.15
@@ -138,6 +141,8 @@ importers:
       typescript:
         specifier: ~5.4.2
         version: 5.4.5
+
+  packages/typescript-config: {}
 
 packages:
 
